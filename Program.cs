@@ -10,6 +10,7 @@ namespace ProjetoCTest
             List <Cliente> cliente = new List<Cliente>();
             cliente.Add(new Cliente("Luiz", "Endereço", true));
             cliente.Add(new Cliente("Otávio", "Endereço", true));
+            cliente.Add(new Cliente("Olinger Momm", "Endereço", true));
 
             foreach (Cliente linha in cliente)
             {
