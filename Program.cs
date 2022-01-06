@@ -7,10 +7,11 @@ namespace ProjetoCTest
     {
         static void Main(string[] args)
         {
-            List <Cliente> cliente = new List<Cliente>();
-            cliente.Add(new Cliente("Luiz", "Endereço", true));
-            cliente.Add(new Cliente("Otávio", "Endereço", true));
-            cliente.Add(new Cliente("Olinger Momm", "Endereço", true));
+            List<Cliente> cliente = new List<Cliente> {
+                new Cliente("Luiz", "Endereço", true),
+                new Cliente("Otávio", "Endereço", true),
+                new Cliente("Olinger Momm", "Endereço", true)
+            };
 
             foreach (Cliente linha in cliente)
             {
